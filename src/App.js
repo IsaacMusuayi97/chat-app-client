@@ -30,7 +30,7 @@ function App() {
       })
       .then((res) => {
         setUser(res.data)
-        // console.log("data", res.data)
+        // console.log("data", res.data, datass)
       })
       .catch((error) => console.error(error))
   }, [])
